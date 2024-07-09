@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    gap: 20px;
+}
+
+.update-message {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 345px;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.alert {
+    display: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    text-align: left;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert.error {
+    
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+
+.logo {
+    width: 280px;
+    align-self: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    align-items: start;
+}
+
+.label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.input-group {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-group img.icons {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.input-group input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #888;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adds a gap between footer items */
+}
+
+.footer span {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.footer span:hover {
+    text-decoration: underline;
+}
+
+.footer span {
+    margin: 0 5px;
+}
+
+.footer span:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adds a gap between footer items */
+    margin: 10 0 0;
+}
+
+.footer span {
+    margin: 0 5px;
+}
+
+.footer span:hover {
+    text-decoration: underline;
+}
+
+.footer span {
+    margin: 0 5px;
+}
+
+.footer span:hover {
+    color: rgba(216, 63, 8, 0.734);
+}
+
+.copyright {
+    font-size: 0.8em;
+    color: #888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-img{
+    width: 20px;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(216, 63, 8, 0.734);
+}

